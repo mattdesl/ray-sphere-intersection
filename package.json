@@ -1,0 +1,46 @@
+{
+  "name": "ray-sphere-intersection",
+  "version": "1.0.0",
+  "description": "test whether a ray intersects with a sphere",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sphere",
+    "intersect",
+    "ray",
+    "origin",
+    "direction",
+    "test",
+    "hit",
+    "pick",
+    "ray",
+    "picking",
+    "camera",
+    "project",
+    "unproject",
+    "collision",
+    "intersections"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/ray-sphere-intersection.git"
+  },
+  "homepage": "https://github.com/mattdesl/ray-sphere-intersection",
+  "bugs": {
+    "url": "https://github.com/mattdesl/ray-sphere-intersection/issues"
+  }
+}
