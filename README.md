@@ -29,6 +29,8 @@ Adapted from [LibGDX](https://github.com/libgdx/libgdx/blob/9eba80c6694160c743e4
 
 Determines if the 3D ray `(origin, direction)` intersects with the 3D sphere `(center, radius)`. 
 
+**Note:** `direction` must be normalized before calling this method
+
 If no intersection occurs, returns `null`. Otherwise, the intersection point is stored in `out` and then returned.
 
 ## License
